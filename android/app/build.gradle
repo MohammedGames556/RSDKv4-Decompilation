@@ -21,7 +21,7 @@ android {
         versionCode 1
         versionName "1.3.3"
         if(project.hasProperty("RETRO_DISABLE_PLUS"))
-            autobuildFlag = true
+            autobuildFlag = false
         externalNativeBuild {
             cmake {
                 arguments "-DAPP_PLATFORM=android-16", "-DANDROID_STL=c++_static", "-DPLATFORM=Android", "-DRETRO_DISABLE_PLUS=$autobuildFlag"
