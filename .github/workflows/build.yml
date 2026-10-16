@@ -23,7 +23,7 @@ env:
 
 jobs:
   v4-windows:
-    runs-on: windows-latest
+    runs-on: windows-lates
     steps:
       - name: Checkout
         uses: actions/checkout@v4
